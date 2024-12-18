@@ -1,0 +1,25 @@
+{
+  "name": "ZEP_QUIZ",
+  "version": "0.13.2",
+  "scripts": {
+    "build": "webpack",
+    "pack": "webpack && zep-script archive",
+    "archive": "zep-script archive",
+    "deploy": "zep-script publish",
+    "yaho": "webpack && npm run archive && npm run deploy"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^24.0.3",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.29.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "zep-script": "0.14.0"
+  },
+  "packageManager": "pnpm@10.12.2"
+}
