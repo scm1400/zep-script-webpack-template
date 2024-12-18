@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "isolatedModules": true
+  },
+  "include": ["src", "main.ts"],
+  "exclude": ["node_modules"]
+}
