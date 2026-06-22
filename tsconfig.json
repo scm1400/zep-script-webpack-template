@@ -1,12 +1,19 @@
 {
 	"compilerOptions": {
-		"target": "ES2015",
-		"module": "ES2015",
-		"moduleResolution": "node",
+		"target": "ES2020",
+		"module": "CommonJS",
+		"lib": ["ES2020", "DOM"],
+		"noEmit": false,
 		"isolatedModules": true,
-		"removeComments": true,
 		"resolveJsonModule": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": false,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"typeRoots": ["./types", "./node_modules/@types"],
+		"types": ["zep-script"]
 	},
 	"include": ["src", "main.ts"],
 	"exclude": ["node_modules"]

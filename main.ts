@@ -1,6 +1,3 @@
-import { ScriptPlayer } from "zep-script";
-import { OnJoinPlayer } from "./src/OnJoinPlayer";
-
-ScriptApp.onInit.Add(()=>{
-    new OnJoinPlayer();
+ScriptApp.onJoinPlayer.Add((player)=>{
+    ScriptApp.showCenterLabel(`${player.name}님 어서오세요!`);
 })

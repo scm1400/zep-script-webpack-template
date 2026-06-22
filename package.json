@@ -19,7 +19,7 @@
     "typescript": "^5.8.3",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "zep-script": "0.14.0"
+    "zep-script": "^0.16.5"
   },
   "packageManager": "pnpm@10.12.2"
 }
