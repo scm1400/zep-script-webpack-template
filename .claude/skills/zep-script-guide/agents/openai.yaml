@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZEP Script"
+  short_description: "ZEP Script agent workflow"
+  default_prompt: "Use $zep-script to modify a ZEP Script app safely."
